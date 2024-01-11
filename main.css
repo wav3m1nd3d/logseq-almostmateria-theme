@@ -4,15 +4,15 @@
 *******************************/
 .dark-theme,
 html[data-theme=dark] {
-  --ls-primary-background-color: #282C34;
-  --ls-secondary-background-color: #21252B;
-  --ls-tertiary-background-color: #1D2026;
-  --ls-quaternary-background-color: #1e2126;
-  --ls-top-bar-background: #21252B;
-  --ls-main-content-background: #21252B;
-  --ls-left-sidebar-background: #282C34;
+  --ls-primary-background-color: #2e2d2c;
+  --ls-secondary-background-color: #262524;
+  --ls-tertiary-background-color: #212120;
+  --ls-quaternary-background-color: #222120;
+  --ls-top-bar-background: #262524;
+  --ls-main-content-background: #262524;
+  --ls-left-sidebar-background: #2e2d2c;
   --ls-scrollbar-foreground-color: #8a8a8a3d;
-  --ls-scrollbar-background-color: #fff0;
+  --ls-scrollbar-background-color: #7c827f;
   --ct-scrollbar-thumb-hover-color: #8a8a8a61;
   --ls-menu-hover-color: #21252b;
   --ls-a-chosen-bg: #21252b;
@@ -27,8 +27,8 @@ html[data-theme=dark] {
   --ls-link-ref-text-hover-color: var(--ls-link-text-color);
   --ls-block-ref-link-text-color: var(--ls-secondary-text-color);
   --ls-dropdown-title-color: #869EE9;
-  --ls-dropdown-title-background: #202124;
-  --ls-settings-list-item-hover-background-color: #21252b;
+  --ls-dropdown-title-background: #222120;
+  --ls-settings-list-item-hover-background-color: #262524;
   --ls-border-color: #181B20;
   --ls-secondary-border-color: #505255;
   --ls-tertiary-border-color: #464646;
@@ -46,8 +46,8 @@ html[data-theme=dark] {
   --ls-create-button-color: var(--ls-secondary-background-color);
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-page-properties-background-color: #21252B;
-  --ls-block-properties-background-color: #21252B;
+  --ls-page-properties-background-color: #262524;
+  --ls-block-properties-background-color: #262524;
   --ls-page-inline-code-color: #F1F2F4;
   --ls-page-inline-code-bg-color: #21252B;
   --ls-page-blockquote-color: #F1F2F4;
@@ -55,7 +55,7 @@ html[data-theme=dark] {
   --ls-page-blockquote-border-color: #495162;
   --ls-page-mark-color: #282C34;
   --ls-page-mark-bg-color: #E5D27B;
-  --ls-selection-background-color: #495162;
+  --ls-selection-background-color: #565553;
   --ls-block-highlight-color: #495162;
   --ls-block-bullet-color: #495162;
   --ls-block-bullet-active-color: var(--ls-link-text-color);
@@ -78,14 +78,14 @@ html[data-theme=dark] {
 .light-theme,
 .white-theme,
 html[data-theme=light] {
-  --ls-primary-background-color: #F1F2F4;
-  --ls-secondary-background-color: #E2E4E9;
-  --ls-tertiary-background-color: #e1e2e5;
-  --ls-quaternary-background-color: #d8d9db;
-  --ls-top-bar-background: #E2E4E9;
-  --ls-main-content-background: #E2E4E9;
+  --ls-primary-background-color: #f2f2f1;
+  --ls-secondary-background-color: #e5e5e4;
+  --ls-tertiary-background-color: #e3e2e1;
+  --ls-quaternary-background-color: #d9d9d8;
+  --ls-top-bar-background: #e5e5e4;
+  --ls-main-content-background: #e5e5e4;
   --ls-scrollbar-foreground-color: #00000014;
-  --ls-scrollbar-background-color: #fff0;
+  --ls-scrollbar-background-color: #7c827f;
   --ct-scrollbar-thumb-hover-color: #8a8a8a61;
   --ls-menu-hover-color: #E2E4E9;
   --ls-a-chosen-bg: #E2E4E9;
@@ -100,10 +100,10 @@ html[data-theme=light] {
   --ls-link-ref-text-hover-color: var(--ls-link-text-color);
   --ls-block-ref-link-text-color: var(--ls-secondary-text-color);
   --ls-dropdown-title-color: #869EE9;
-  --ls-dropdown-title-background: #f1f2f4;
-  --ls-settings-list-item-hover-background-color: #E2E4E9;
-  --ls-settings-dropdown-background: #F1F2F4;
-  --ls-settings-dropdown-link-item-background: #F1F2F4;
+  --ls-dropdown-title-background: #f2f2f1;
+  --ls-settings-list-item-hover-background-color: #e5e5e4;
+  --ls-settings-dropdown-background: #f2f2f2;
+  --ls-settings-dropdown-link-item-background: #f2f2f2;
   --ls-modal-panel-color: #F1F2F4;
   --ls-border-color: #D3D6DF;
   --ls-secondary-border-color: #e2e2e2;
@@ -115,15 +115,15 @@ html[data-theme=light] {
   --ls-header-button-text-color-hover: #282c34;
   --ls-header-button-background: var(--ls-secondary-background-color);
   --ls-header-button-hover: #D3D6DF;
-  --ls-left-sidebar-background: #f7f7f7;
+  --ls-left-sidebar-background: #f6f6f6;
   --ls-left-sidebar-border-color: #D3D6DF;
   --ls-left-sidebar-text-color: var(--ls-primary-text-color);
   --ls-create-button-color-sm: var(--ls-secondary-background-color);
   --ls-create-button-color: var(--ls-secondary-background-color);
   --ls-right-sidebar-content-background: var(--ls-primary-background-color);
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-page-properties-background-color: #E2E4E9;
-  --ls-block-properties-background-color: #E2E4E9;
+  --ls-page-properties-background-color: #e5e5e4;
+  --ls-block-properties-background-color: #e5e5e4;
   --ls-page-inline-code-color: #282c34;
   --ls-page-inline-code-bg-color: #E2E4E9;
   --ls-page-blockquote-color: #282C34;
@@ -131,7 +131,7 @@ html[data-theme=light] {
   --ls-page-blockquote-border-color: #D3D6DF;
   --ls-page-mark-color: #282C34;
   --ls-page-mark-bg-color: #E5D27B;
-  --ls-selection-background-color: #cdd4eb;
+  --ls-selection-background-color: #dcdbda;
   --ls-block-highlight-color: #cdd4eb;
   --ls-block-bullet-color: #D3D6DF;
   --ls-block-bullet-active-color: var(--ls-link-text-color);
