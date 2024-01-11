@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wav3m1nd3d/logseq-almostmateria-theme/compare/v1.0.0...v1.0.1) (2024-01-11)
+
+
+### Bug Fixes
+
+* Update package.json ([b4d3041](https://github.com/wav3m1nd3d/logseq-almostmateria-theme/commit/b4d304106d1eef6f09fd3aacc9be87aec0bdaff2))
+
 # 1.0.0 (2024-01-11)
 
 
