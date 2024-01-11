@@ -1,17 +1,17 @@
 {
-	"name": "logseq-one-theme",
-	"author": "femto-code",
+	"name": "logseq-almostmateria-theme",
+	"author": "wav3m1nd3d",
 	"version": "1.0.0",
-	"description": "A clean theme inspired by One Dark Pro.",
+	"description": "A clean theme inspired by One Dark",
 	"logseq": {
 		"themes": [
 			{
-				"name": "One Theme",
+				"name": "AlmostMateria Theme",
 				"url": "./main.css",
 				"description": "A clean theme inspired by One Dark Pro."
 			}
 		],
-		"id": "logseq-one-theme",
+		"id": "logseq-almostmateria-theme",
 		"icon": "./icon.png"
 	},
 	"scripts": {
